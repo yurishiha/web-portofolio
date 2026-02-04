@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+section.home{
+    background-color: #565252;
+    height: 90vh;
+}
+strong{
+    position: relative;
+    top: 20px;
+    margin: 30px;
+    padding: 0;
+}
+nav{
+    background-color: rgb(52, 49, 49);
+    box-shadow: 0 0 30px black;
+    color: white;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    list-style: none;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    position: relative;
+    left: -20px;
+}
+nav ul li a:hover{
+    color: goldenrod;
+}
+.content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}.content .text-content{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+}
+.typed{
+    background-image: linear-gradient(to right, rgb(152, 143, 143), rgb(87, 152, 128), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content .introduction{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.content .box-content{
+    height: 200px;
+    width: 600px;
+    margin: 0; 
+    position: relative;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.content .foto-content{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    background-image: url(Dini.jpg);
+    filter: brightness();
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    position: absolute; 
+    bottom: 0; 
+    left: 80%; 
+    transform: translateX(-50%);
+    transition: ease-in-out 0.3s; 
+}
+.content .foto-content:hover{
+    transform: translateX(-50%) scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.typing{
+    color: red;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.typing:hover{
+    color: aqua;
+}
+section.About{
+    height: 70vh;
+    background-color: #565252;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 300px;
+    width: 900px;
+    background-color: #333; 
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(25, 24, 24, 0.543);
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    top: 60px;
+    left: 10px;
+    text-shadow: 0 0 5px solid black;
+    animation: fadeInRight 2s ease-in-out;
+}
+.container .content-2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -120px;
+}
+.container .box{
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    background-image: url(andini.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px black;
+    transition: ease-in-out 0.3s;
+    filter: blur(2px);
+}
+.container .box:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+section.Skill{
+    height: 25vh;
+    background-color: #565252;
+}
+.container .box-2{
+    height: 100px;
+    width: 600px;
+    margin: 60px;
+    position: relative;
+    top: -40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-2{
+    display: flex;
+    gap: 1rem;
+    margin: -170px;
+    padding: 0;
+    position: relative;
+    left: 280px;
+    top: 240px;
+}
+.container-2 .box-3{
+    height: 35px;
+    width: 120px;
+    background-color: #333;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -100px;
+    transition: ease-in-out 0.3s;
+}
+.container-2 .box-4{
+    height: 35px;
+    width: 120px;
+    background-color: #333;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -100px;
+    transition: ease-in-out 0.3s;
+}
+.container-2 .box-5{
+    height: 35px;
+    width: 120px;
+    background-color: #333;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -100px;
+    transition: ease-in-out 0.3s;
+}
+.container-2 .box-3:hover{
+    filter: blur(0px);
+    background-color: rgba(218, 165, 32, 0.176);
+}
+.container-2 .box-4:hover{
+
+    background-color: rgba(218, 165, 32, 0.176);
+}
+.container-2 .box-5:hover{
+    filter: blur(0px);
+    background-color: rgba(218, 165, 32, 0.176);
+}
+.native{
+    opacity: 0;
+}
+.native:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    color: goldenrod;
+}
+section.contact{
+    height: 160vh;
+    background-color: #565252;
+    
+}
+
+.container-contact {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.container-contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: goldenrod;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #d4af37;
+}
